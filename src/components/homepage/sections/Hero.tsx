@@ -4,7 +4,7 @@ import type { HomepageContent } from "@/lib/content/homepage";
 
 function ConnectedField({ field }: { field: HomepageContent["hero"]["field"] }) {
   return (
-    <div className="relative border-y border-accent-foreground/20 py-3" aria-label="Rive capability relationship">
+    <div className="relative border-y border-accent-foreground/20 py-3" aria-label="ZNL capability relationship">
       <span aria-hidden="true" className="absolute top-0 bottom-0 left-14 w-px bg-accent-foreground/15 sm:left-20" />
       <ol>
         {field.map((item, index) => (
@@ -36,7 +36,7 @@ export function Hero({ content }: { content: HomepageContent["hero"] }) {
         </div>
         <div className="xl:col-span-5"><ConnectedField field={content.field} /></div>
       </div>
-      <ul aria-label="Rive delivery authority" className="mt-16 grid grid-cols-2 border-t border-accent-foreground/15 md:grid-cols-3 xl:grid-cols-6">
+      <ul aria-label="ZNL delivery authority" className="mt-16 grid grid-cols-2 border-t border-accent-foreground/15 md:grid-cols-3 xl:grid-cols-6">
         {content.trustItems.map((item) => <li key={item} className="border-b border-accent-foreground/10 py-4 pr-4 text-[12px] leading-[1.45] font-semibold text-accent-foreground/70 xl:border-b-0 xl:border-r xl:px-4 xl:first:pl-0 xl:last:border-r-0">{item}</li>)}
       </ul>
     </Section>

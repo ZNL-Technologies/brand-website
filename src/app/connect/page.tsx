@@ -5,7 +5,7 @@ import { isConnectDeliveryEnabled } from "@/lib/connect-availability";
 
 export const metadata: Metadata = {
   title: "Connect",
-  description: "Start a practical conversation with Rive Webworks about a website, cloud platform, AI system or an early-stage problem that still needs definition.",
+  description: "Start a practical conversation with ZNL Technologies about a website, cloud platform, AI system or an early-stage problem that still needs definition.",
   alternates: { canonical: "/connect/" },
 };
 

@@ -19,7 +19,7 @@ import {
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Starting prices for Rive Webworks project packages and managed services, with visible inclusions, exclusions and next steps. Final scope is confirmed in Paid Discovery.",
+    "Starting prices for ZNL Technologies project packages and managed services, with visible inclusions, exclusions and next steps. Final scope is confirmed in Paid Discovery.",
   alternates: { canonical: "/pricing/" },
 };
 
@@ -29,7 +29,7 @@ export default function PricingPage() {
   const offerCatalogJsonLd = {
     "@context": "https://schema.org",
     "@type": "OfferCatalog",
-    name: "Rive Webworks project packages",
+    name: "ZNL Technologies project packages",
     itemListElement: projectPackages
       .filter((pkg) => !pkg.price.unresolved)
       .map((pkg) => ({

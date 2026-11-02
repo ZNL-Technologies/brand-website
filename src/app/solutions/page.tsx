@@ -9,7 +9,7 @@ import { LinkButton } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Solutions",
   description:
-    "You don't need to know the service name. Pick the outcome, and Rive will tell you where to start.",
+    "You don't need to know the service name. Pick the outcome, and ZNL will tell you where to start.",
   alternates: { canonical: "/solutions/" },
 };
 

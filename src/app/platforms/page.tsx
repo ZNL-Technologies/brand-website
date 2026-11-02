@@ -9,7 +9,7 @@ import { PlatformDomainVisual } from "@/components/solutions/PlatformDomainVisua
 
 export const metadata: Metadata = {
   title: "Platforms",
-  description: "AWS or Microsoft. Rive runs full-depth practice on both ecosystems.",
+  description: "AWS or Microsoft. ZNL runs full-depth practice on both ecosystems.",
   alternates: { canonical: "/platforms/" },
 };
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/layout/Container";
 import { LinkButton } from "@/components/ui/Button";
@@ -12,13 +13,15 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-4">
             <div className="flex items-center gap-2.5">
-              <span
+              <Image
+                src="/brand/znl-wordmark.png"
+                alt=""
                 aria-hidden="true"
-                className="flex h-7 w-7 items-center justify-center rounded-sm border border-brand-maroon/40 text-xs font-bold text-brand-maroon"
-              >
-                R
-              </span>
-              <p className="font-serif text-xl font-semibold">Rive Webworks</p>
+                width={446}
+                height={240}
+                className="h-9 w-auto shrink-0 znl-mark-adaptive"
+              />
+              <span className="sr-only">ZNL Technologies</span>
             </div>
             <p className="mt-4 max-w-sm text-[15px] leading-[1.65] text-accent-foreground/75">
               One team for the website, the cloud behind it, and the AI on
@@ -62,7 +65,7 @@ export function Footer() {
         </div>
 
         <p className="mt-12 border-t border-accent-foreground/10 pt-6 text-[13px] text-accent-foreground/70">
-          © {year} Rive Webworks. Cloud architecture and delivery practices
+          © {year} ZNL Technologies. Cloud architecture and delivery practices
           follow AWS and Microsoft standards; no partner-program affiliation
           is implied or claimed.
         </p>

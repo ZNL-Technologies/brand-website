@@ -75,7 +75,7 @@ export const catalogIntro = {
 };
 
 export const examine = {
-  heading: "What Rive examines, and what you get back.",
+  heading: "What ZNL examines, and what you get back.",
   whatWeExamine: buyerPath.whatWeExamine,
   expectedOutput: buyerPath.expectedOutput,
 };
@@ -107,13 +107,13 @@ export const followOnIntro = {
 
 export const processNote = {
   heading: "Where this sits in delivery.",
-  body: "Website scope and build decisions happen at the same Build stage in Rive's delivery process, after Architect has already set the platform shape.",
+  body: "Website scope and build decisions happen at the same Build stage in ZNL's delivery process, after Architect has already set the platform shape.",
   cta: { label: "See Delivery Process", href: "/company/process/" },
 };
 
 export const relationships = {
   eyebrow: "Related",
-  heading: "How this connects to the rest of Rive.",
+  heading: "How this connects to the rest of ZNL.",
   items: [
     {
       label: "Evidence Pack",

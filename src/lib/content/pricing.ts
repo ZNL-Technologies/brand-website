@@ -689,7 +689,7 @@ export const pricingFaq: PricingFaqItem[] = [
     id: "start-smaller",
     question: "Can I start with a smaller engagement and expand later?",
     answer:
-      "Yes. Rive uses a Land, Expand, Retain progression where appropriate. Expansion depends on the actual problem, evidence and priorities, not a fixed upsell path.",
+      "Yes. ZNL uses a Land, Expand, Retain progression where appropriate. Expansion depends on the actual problem, evidence and priorities, not a fixed upsell path.",
   },
   {
     id: "third-party-fees",
@@ -704,7 +704,7 @@ export const pricingContent = {
     eyebrow: "Pricing",
     heading: "Price becomes clear when scope becomes visible.",
     summary:
-      "Rive publishes starting bands, not a sales-call mystery. Every package states what it is for, what it includes, what it excludes and what happens next, so you can self-qualify before you ever talk to us.",
+      "ZNL publishes starting bands, not a sales-call mystery. Every package states what it is for, what it includes, what it excludes and what happens next, so you can self-qualify before you ever talk to us.",
     primary: { label: "Book Paid Discovery", href: "/connect/" },
     secondary: { label: "See how the work moves", href: "/company/process/" },
   },

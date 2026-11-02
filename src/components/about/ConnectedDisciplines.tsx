@@ -21,7 +21,7 @@ export function ConnectedDisciplines({ disciplines, media }: { disciplines: read
 
   return (
     <div ref={cycle.containerRef} {...cycle.interactionProps} data-presentation-mode={cycle.mode} className="mt-12 grid gap-10 lg:grid-cols-[minmax(17rem,0.8fr)_minmax(0,1.2fr)] lg:gap-16">
-      <div role="tablist" aria-label="Connected Rive disciplines" className="border-y border-hairline">
+      <div role="tablist" aria-label="Connected ZNL disciplines" className="border-y border-hairline">
         {disciplines.map((discipline, index) => {
           const selected = cycle.activeIndex === index;
           return (

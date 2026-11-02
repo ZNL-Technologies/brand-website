@@ -2,7 +2,7 @@ import type { AnchorHTMLAttributes, ButtonHTMLAttributes } from "react";
 import Link from "next/link";
 
 /**
- * RW-PW07B: Rive's tactile button interaction system. Six variants, one
+ * RW-PW07B: ZNL's tactile button interaction system. Six variants, one
  * shared hover language — a solid colour fill that wipes left-to-right
  * (`scale-x` from a left `transform-origin`, not a width transition) plus a
  * few pixels of arrow movement. No lift, no hover shadow, no bounce —

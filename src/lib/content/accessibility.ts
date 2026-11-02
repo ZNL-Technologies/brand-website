@@ -19,9 +19,9 @@ export const positioning = {
   eyebrow: "Accessibility",
   heading: "The path should stay open when the mouse disappears, the screen changes, or the interface is interpreted differently.",
   summary:
-    "Rive designs and validates against WCAG 2.2 AA-informed practices, using both automated and manual checks as part of delivery quality. This page explains how that practice works, not a service to buy.",
+    "ZNL designs and validates against WCAG 2.2 AA-informed practices, using both automated and manual checks as part of delivery quality. This page explains how that practice works, not a service to buy.",
   statement:
-    "Rive's accessibility approach is WCAG 2.2 AA-informed. Testing depends on scope and page or application complexity: automated checks, manual keyboard testing, ARIA review and screen-reader testing are used where appropriate, not applied identically to every project.",
+    "ZNL's accessibility approach is WCAG 2.2 AA-informed. Testing depends on scope and page or application complexity: automated checks, manual keyboard testing, ARIA review and screen-reader testing are used where appropriate, not applied identically to every project.",
 };
 
 export type AccessPathStep = {
@@ -48,8 +48,8 @@ export const principles = [
 
 export const principlesIntro = {
   eyebrow: "How we frame the work",
-  heading: "Four established accessibility principles, not a Rive-invented framework.",
-  note: "These correspond to the WCAG POUR model, described here in plain language, not as a proprietary Rive category system.",
+  heading: "Four established accessibility principles, not a ZNL-invented framework.",
+  note: "These correspond to the WCAG POUR model, described here in plain language, not as a proprietary ZNL category system.",
 };
 
 export type KeyboardPathStop = {
@@ -159,7 +159,7 @@ export const relationships = {
   items: [
     {
       label: "UX Audit + Conversion Roadmap",
-      body: "UXR-01 includes a WCAG 2.2 AA accessibility audit as one of its deliverables. That is a commercial audit and roadmap engagement. This page describes Rive's broader accessibility operating practice, not a service to book on its own.",
+      body: "UXR-01 includes a WCAG 2.2 AA accessibility audit as one of its deliverables. That is a commercial audit and roadmap engagement. This page describes ZNL's broader accessibility operating practice, not a service to book on its own.",
       cta: { label: "See the UX Audit", href: "/services/web/ux-audit-conversion-roadmap/" },
     },
     {

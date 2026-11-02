@@ -48,7 +48,7 @@ export const insightsContent = {
   ] satisfies InsightResource[],
   lens: {
     heading: "A change is useful when its consequence becomes clear.",
-    description: "Rive examines change through the decision it affects, not the attention it receives.",
+    description: "ZNL examines change through the decision it affects, not the attention it receives.",
     stages: [
       { title: "Signal", question: "What changed?", detail: "Identify the material change without treating every announcement as equally important." },
       { title: "Context", question: "Where does it matter?", detail: "Place the change inside the systems, people and constraints that give it consequence." },
@@ -83,7 +83,7 @@ export const insightsContent = {
   },
   final: {
     heading: "Thinking through a decision inside your own system?",
-    description: "When the question moves from theory to implementation, Rive can examine it in context.",
+    description: "When the question moves from theory to implementation, ZNL can examine it in context.",
     cta: contactCta,
   },
 } as const satisfies {

@@ -97,7 +97,7 @@ export const evidenceArtifactDetails: readonly EvidenceArtifactDetail[] = [
       fields: [
         { label: "Owner", value: "The named point of contact after handoff" },
         { label: "Access", value: "What the client can reach directly" },
-        { label: "Escalation", value: "What requires Rive's involvement" },
+        { label: "Escalation", value: "What requires ZNL's involvement" },
       ],
     },
   },
@@ -122,7 +122,7 @@ export const evidencePackContent = {
     eyebrow: "Evidence Pack",
     heading: "Six records. What each one contains, and what it looks like.",
     summary:
-      "The Trust Center explains why Rive documents delivery. This page shows what that documentation actually is: six records, connected to the process that produces them, sample-illustrated so the promise is inspectable rather than abstract.",
+      "The Trust Center explains why ZNL documents delivery. This page shows what that documentation actually is: six records, connected to the process that produces them, sample-illustrated so the promise is inspectable rather than abstract.",
     primary: { label: "See the Trust Center", href: "/trust/" },
     secondary: { label: "See the six records", href: "#register-heading" },
   },
@@ -143,7 +143,7 @@ export const evidencePackContent = {
   },
   claimNote: {
     eyebrow: trustContent.claims.eyebrow,
-    heading: "What this page can say is bounded by what Rive can support.",
+    heading: "What this page can say is bounded by what ZNL can support.",
     description:
       "The full supported and withheld claim boundary lives on the Trust Center. Nothing on this page implies a certification, a guarantee, or real client evidence: every sample view here is a generic, illustrative mock, not a screenshot of delivered work.",
     cta: { label: "See the claim boundary", href: "/trust/#claim-boundary-heading" },
@@ -171,6 +171,6 @@ export const evidencePackContent = {
     heading: "Start with the problem. Keep the proof connected to the work.",
     body: "If you are deciding where to begin, use the guided route. If the scope is already clear, start a direct conversation.",
     primary: { label: "Find Your Solution", href: "/start/" },
-    secondary: { label: "Connect with Rive", href: "/connect/" },
+    secondary: { label: "Connect with ZNL", href: "/connect/" },
   },
 } as const;

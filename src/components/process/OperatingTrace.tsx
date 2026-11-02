@@ -2,7 +2,7 @@ import type { ProcessPhase } from "@/lib/content/process";
 
 export function OperatingTrace({ phases }: { phases: readonly ProcessPhase[] }) {
   return (
-    <ol aria-label="Rive engagement responsibilities" className="relative">
+    <ol aria-label="ZNL engagement responsibilities" className="relative">
       <span
         aria-hidden="true"
         className="absolute top-5 bottom-8 left-[15px] w-px bg-hairline md:left-[23px]"

@@ -15,15 +15,15 @@ export const aboutContent = {
     eyebrow: "ABOUT",
     heading: "Digital work is rarely just one discipline.",
     description:
-      "Rive connects experience, infrastructure, intelligence and operation as one accountable system.",
+      "ZNL connects experience, infrastructure, intelligence and operation as one accountable system.",
     media: {
       id: "RW-ABOUT-HERO-01",
       category: "editorial-photography",
-      purpose: "Introduce Rive through a human working context",
+      purpose: "Introduce ZNL through a human working context",
       aspect: "5:4",
       composition: "A real working environment with people in context, not a staged office portrait",
       mood: "Calm, observant, capable",
-      replacement: "Approved Rive workplace or working-session photography",
+      replacement: "Approved ZNL workplace or working-session photography",
       priority: "P0",
       motion: "none",
     } satisfies PlaceholderMeta,
@@ -55,7 +55,7 @@ export const aboutContent = {
   boundaries: {
     heading: "The boundaries are artificial. The consequences are not.",
     description:
-      "A decision in one layer changes what becomes possible elsewhere. Rive works across those seams so responsibility does not disappear between specialists.",
+      "A decision in one layer changes what becomes possible elsewhere. ZNL works across those seams so responsibility does not disappear between specialists.",
     layers: [
       { title: "Visible experience", detail: "What customers and teams use." },
       { title: "Application and business systems", detail: "Where content, identity and workflows meet." },
@@ -79,7 +79,7 @@ export const aboutContent = {
   human: {
     heading: "Systems are built for people. And by people.",
     description:
-      "Rive's work is technical, but the relationship is human: people need to understand the decision, know who owns it and be able to operate what remains.",
+      "ZNL's work is technical, but the relationship is human: people need to understand the decision, know who owns it and be able to operate what remains.",
     note: "Team profiles are not published yet. This space is reserved for approved working-session imagery rather than invented biographies or placeholder roles.",
     media: {
       id: "RW-ABOUT-HUMAN-01",
@@ -88,13 +88,13 @@ export const aboutContent = {
       aspect: "3:2",
       composition: "An unposed working session with decisions and collaboration visible",
       mood: "Grounded, direct, approachable",
-      replacement: "Approved Rive team or working-session photography",
+      replacement: "Approved ZNL team or working-session photography",
       priority: "P0",
       motion: "none",
     } satisfies PlaceholderMeta,
   },
   relationship: {
-    heading: "What working with Rive should make clearer.",
+    heading: "What working with ZNL should make clearer.",
     description:
       "The detailed delivery process changes with the engagement. The relationship should still make responsibility, decisions and the next step easier to see.",
     expectations: [

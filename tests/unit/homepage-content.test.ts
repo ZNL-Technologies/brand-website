@@ -5,7 +5,7 @@ describe("homepage fallback content", () => {
   it("matches the approved hero copy", () => {
     const { hero } = homepageFallbackContent;
 
-    expect(hero.eyebrow).toBe("RIVE WEBWORKS");
+    expect(hero.eyebrow).toBe("ZNL TECHNOLOGIES");
     expect(hero.heading).toBe(
       "Cloud, AI & Web Design Built on Evidence, Not Promises",
     );

@@ -13,7 +13,7 @@ test.describe("Trust Center (RW-PAGE-09)", () => {
       "Confidence comes from visible operating discipline.",
       "Proof accumulates while the work is happening.",
       "Three trust questions, answered through practice.",
-      "What Rive can say is bounded by what Rive can support.",
+      "What ZNL can say is bounded by what ZNL can support.",
       "The record should remain useful after the engagement changes hands.",
     ]) {
       await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();

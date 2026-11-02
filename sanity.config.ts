@@ -11,7 +11,7 @@ import { structure } from "./src/sanity/structure";
  */
 export default defineConfig({
   name: "rive-webworks",
-  title: "Rive Webworks",
+  title: "ZNL Technologies",
   projectId,
   dataset,
   apiVersion,

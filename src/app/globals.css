@@ -123,6 +123,15 @@
   --focus-ring-color: var(--color-brand-gold);
 }
 
+/* The ZNL mark PNG is a flat navy raster with no theme-aware variant.
+   Left alone it reads correctly on light/cream surfaces but disappears
+   against navy ones (Header, Footer and MobileNav all sit on the same
+   accent-surface token, which flips cream->navy in dark mode) — so the
+   mark needs to flip navy->white alongside it. */
+.dark .znl-mark-adaptive {
+  filter: brightness(0) invert(1);
+}
+
 /*
  * RW-PW07A fix: this was an unlayered rule. Per the CSS cascade-layers spec,
  * unlayered rules always beat layered ones regardless of specificity or
@@ -209,7 +218,7 @@ body {
   transition: background-color 200ms, color 200ms;
 }
 
-/* Fraunces is Rive's sitewide heading and title face. Semantic headings
+/* Fraunces is ZNL's sitewide heading and title face. Semantic headings
    inherit it even when a component uses a page-specific size instead of a
    canonical text-h* utility; body copy and operational UI remain in Inter. */
 :where(h1, h2, h3, h4, h5, h6) {

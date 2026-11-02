@@ -9,7 +9,7 @@ import { LinkButton } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "Industries",
-  description: "Built where mistakes are expensive — the sectors Rive works in and why.",
+  description: "Built where mistakes are expensive — the sectors ZNL works in and why.",
   alternates: { canonical: "/industries/" },
 };
 
