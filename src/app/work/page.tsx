@@ -10,7 +10,7 @@ import { workContent } from "@/lib/content/work";
 
 export const metadata: Metadata = {
   title: "Work",
-  description: "See how Rive connects digital experience, cloud, intelligence, delivery and evidence as one accountable system.",
+  description: "See how ZNL connects digital experience, cloud, intelligence, delivery and evidence as one accountable system.",
   alternates: { canonical: "/work/" },
 };
 

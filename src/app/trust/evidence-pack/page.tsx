@@ -8,7 +8,7 @@ import { evidenceArtifacts, evidencePackContent } from "@/lib/content/evidence-p
 export const metadata: Metadata = {
   title: "Evidence Pack",
   description:
-    "The six records Rive Webworks accumulates during delivery, with sample views, evidence tiers, ownership and process connection for each.",
+    "The six records ZNL Technologies accumulates during delivery, with sample views, evidence tiers, ownership and process connection for each.",
   alternates: { canonical: "/trust/evidence-pack/" },
 };
 
@@ -18,7 +18,7 @@ export default function EvidencePackPage() {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Rive Webworks Evidence Pack",
+    name: "ZNL Technologies Evidence Pack",
     itemListElement: evidenceArtifacts.map((artifact, index) => ({
       "@type": "ListItem",
       position: index + 1,

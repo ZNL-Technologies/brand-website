@@ -16,7 +16,7 @@ import { managedServices, projectPackages } from "@/lib/content/pricing";
  * No AI certification, partner status or case-study metric is claimed
  * anywhere on this page: `CLM-001`/`CLM-002`/`CLM-006` are `BLOCKED` in
  * `docs/governance/CLAIMS_REGISTER.md` ("Not supplied"). Every governance
- * claim below is a description of practice (what Rive designs in), not a
+ * claim below is a description of practice (what ZNL designs in), not a
  * credential.
  */
 
@@ -95,7 +95,7 @@ export const catalogIntro = {
 };
 
 export const examine = {
-  heading: "What Rive examines, and what you get back.",
+  heading: "What ZNL examines, and what you get back.",
   whatWeExamine: buyerPath.whatWeExamine,
   expectedOutput: buyerPath.expectedOutput,
 };
@@ -112,13 +112,13 @@ export const followOnIntro = {
 
 export const processNote = {
   heading: "Where this sits in delivery.",
-  body: "Use-case and data-boundary decisions happen at the same Architect stage in Rive's delivery process, ahead of build, so evaluation is scoped in from the start rather than added once something breaks.",
+  body: "Use-case and data-boundary decisions happen at the same Architect stage in ZNL's delivery process, ahead of build, so evaluation is scoped in from the start rather than added once something breaks.",
   cta: { label: "See Delivery Process", href: "/company/process/" },
 };
 
 export const relationships = {
   eyebrow: "Related",
-  heading: "How this connects to the rest of Rive.",
+  heading: "How this connects to the rest of ZNL.",
   items: [
     {
       label: "Evidence Pack",

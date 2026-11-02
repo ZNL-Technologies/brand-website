@@ -9,7 +9,7 @@ import { insightsContent } from "@/lib/content/insights";
 
 export const metadata: Metadata = {
   title: "Insights",
-  description: "Rive perspectives on web, cloud, Microsoft, AI, automation and the decisions connecting them.",
+  description: "ZNL perspectives on web, cloud, Microsoft, AI, automation and the decisions connecting them.",
   alternates: { canonical: "/resources/insights/" },
 };
 
@@ -70,7 +70,7 @@ export default function InsightsPage() {
 
       <Section spacing="generous" aria-labelledby="topic-stream-heading" className="bg-surface-alt">
         <h2 id="topic-stream-heading" className="text-h2 text-heading">Browse by perspective</h2>
-        <p className="mt-4 mb-10 max-w-xl text-[15px] leading-[1.7] text-body">Follow the questions Rive is examining across connected systems.</p>
+        <p className="mt-4 mb-10 max-w-xl text-[15px] leading-[1.7] text-body">Follow the questions ZNL is examining across connected systems.</p>
         <InsightStream insights={latest} />
       </Section>
 

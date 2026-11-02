@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { primaryNav, startCta, connectCta, contactCta } from "@/lib/nav";
@@ -85,17 +86,17 @@ export function Header() {
           className={`flex items-center gap-2.5 text-accent-foreground transition-transform duration-[280ms] ease-out motion-reduce:transition-none ${
             compact ? "xl:origin-left xl:scale-[0.92]" : ""
           }`}
-          aria-label="Rive Webworks — home"
+          aria-label="ZNL Technologies — home"
         >
-          <span
+          <Image
+            src="/brand/znl-wordmark.png"
+            alt=""
             aria-hidden="true"
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-sm border border-brand-maroon/40 text-sm font-bold text-brand-maroon"
-          >
-            R
-          </span>
-          <span className="font-serif text-lg font-semibold tracking-tight">
-            Rive Webworks
-          </span>
+            width={446}
+            height={240}
+            className="h-10 w-auto shrink-0 znl-mark-adaptive"
+            priority
+          />
         </Link>
 
         <DesktopNav items={primaryNav} compact={compact} />

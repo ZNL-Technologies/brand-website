@@ -9,7 +9,7 @@ type ArchitectureSpineProps = {
 
 /**
  * RW-PW06A: the persistent architectural spine — a fixed rail connecting the
- * hero's Rive Operating Architecture to the four sections that correspond to
+ * hero's ZNL Operating Architecture to the four sections that correspond to
  * one of its stages (each carries `id="stage-<id>"`, see the section files).
  * A node "activates" (ratchet, never reverts) once its section crosses the
  * vertical middle of the viewport, tracked via IntersectionObserver — no

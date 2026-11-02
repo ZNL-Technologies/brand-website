@@ -68,7 +68,7 @@ export default function CompanyPage() {
 
       <Section aria-labelledby="company-team-heading" className="border-t border-hairline-faint bg-surface">
         <h2 id="company-team-heading" className="text-h2 text-heading">
-          Who&apos;s behind Rive
+          Who&apos;s behind ZNL
         </h2>
         <p className="mt-3 max-w-2xl text-[15px] leading-[1.65] text-body md:text-base">
           Full team profiles aren&apos;t published yet. Until they are, what you can rely on is

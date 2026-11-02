@@ -97,7 +97,7 @@ export const catalogIntro = {
 };
 
 export const examine = {
-  heading: "What Rive examines, and what you get back.",
+  heading: "What ZNL examines, and what you get back.",
   whatWeExamine: buyerPath.whatWeExamine,
   expectedOutput: buyerPath.expectedOutput,
 };
@@ -114,13 +114,13 @@ export const followOnIntro = {
 
 export const processNote = {
   heading: "Where this sits in delivery.",
-  body: "Architecture and platform decisions happen at the same Architect stage in Rive's delivery process, ahead of build, so a cloud foundation is sequenced rather than retrofitted.",
+  body: "Architecture and platform decisions happen at the same Architect stage in ZNL's delivery process, ahead of build, so a cloud foundation is sequenced rather than retrofitted.",
   cta: { label: "See Delivery Process", href: "/company/process/" },
 };
 
 export const relationships = {
   eyebrow: "Related",
-  heading: "How this connects to the rest of Rive.",
+  heading: "How this connects to the rest of ZNL.",
   items: [
     {
       label: "Evidence Pack",

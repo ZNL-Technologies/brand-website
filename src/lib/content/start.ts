@@ -26,7 +26,7 @@ export const startContent = {
   metadata: {
     title: "Find Your Solution",
     description:
-      "Start with the change you need, the outcome you want or the problem in front of you. Rive will help you identify a practical direction.",
+      "Start with the change you need, the outcome you want or the problem in front of you. ZNL will help you identify a practical direction.",
   },
   hero: {
     eyebrow: "Find your solution",
@@ -46,7 +46,7 @@ export const startContent = {
   },
   reassurance: {
     heading: "Bring the problem before the perfect brief.",
-    body: "The recommendation is a starting point for discussion. Rive can test the assumptions with you before a scope is defined.",
+    body: "The recommendation is a starting point for discussion. ZNL can test the assumptions with you before a scope is defined.",
   },
 } as const;
 

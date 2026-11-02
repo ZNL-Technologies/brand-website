@@ -8,4 +8,4 @@ export function getSiteUrl(): URL | undefined {
   return raw ? new URL(raw) : undefined;
 }
 
-export const siteName = "Rive Webworks";
+export const siteName = "ZNL Technologies";

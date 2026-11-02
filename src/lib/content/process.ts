@@ -14,7 +14,7 @@ export const processContent = {
     eyebrow: "Process",
     heading: "The build is only one part of the work.",
     summary:
-      "Rive carries decisions from first questions through delivery, verification and what happens next.",
+      "ZNL carries decisions from first questions through delivery, verification and what happens next.",
     cta: contactCta,
   },
   model: {
@@ -157,7 +157,7 @@ export const processContent = {
     {
       question: "How involved does our team need to be?",
       answer:
-        "Your team is most important where context, priorities and approvals are required. Rive makes those moments explicit rather than asking for constant participation without a clear purpose.",
+        "Your team is most important where context, priorities and approvals are required. ZNL makes those moments explicit rather than asking for constant participation without a clear purpose.",
     },
     {
       question: "What happens after launch?",
@@ -165,7 +165,7 @@ export const processContent = {
         "Ownership and support boundaries are agreed before handover. Where continued operation forms part of the engagement, monitoring, maintenance and improvement continue within that defined relationship.",
     },
     {
-      question: "Can Rive work with an existing internal or external team?",
+      question: "Can ZNL work with an existing internal or external team?",
       answer:
         "Yes. Responsibilities, dependencies, decision owners and handoff points are clarified so the work can connect without creating another opaque boundary.",
     },

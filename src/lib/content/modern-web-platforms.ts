@@ -142,7 +142,7 @@ export const platformPaths: readonly PlatformPath[] = [
       "A portal or application may grow out of the marketing site",
     ],
     mapping: "OP-40 (OPT-15 + FND-02 + BLD-03)",
-    routeNote: "Rive's flagship modern-web route when premium experience, structured content and future extensibility need to work together.",
+    routeNote: "ZNL's flagship modern-web route when premium experience, structured content and future extensibility need to work together.",
   },
   {
     id: "wordpress",
@@ -153,7 +153,7 @@ export const platformPaths: readonly PlatformPath[] = [
       "Content-heavy workflows favor familiar tooling over custom flexibility",
     ],
     mapping: "BLD-02/03 + ACC-03/OP-10B",
-    routeNote: "Rive supports WordPress when it is the better operating choice. Familiar editing and ecosystem speed can matter more than custom-application flexibility.",
+    routeNote: "ZNL supports WordPress when it is the better operating choice. Familiar editing and ecosystem speed can matter more than custom-application flexibility.",
   },
   {
     id: "custom-application",
@@ -201,7 +201,7 @@ export const performanceIntro = {
 export const accessibilityNote = {
   eyebrow: "Accessibility",
   heading: "Part of engineering quality, not a separate checkbox.",
-  body: "Rive's web builds are WCAG 2.2 AA-informed, using automated and manual checks as part of delivery quality.",
+  body: "ZNL's web builds are WCAG 2.2 AA-informed, using automated and manual checks as part of delivery quality.",
   cta: { label: "See the accessibility practice", href: "/trust/accessibility/" },
 };
 

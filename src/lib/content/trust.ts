@@ -16,14 +16,14 @@ export const trustContent = {
     eyebrow: "Trust Center",
     heading: "Trust should leave a record.",
     summary:
-      "Rive makes delivery easier to inspect by recording scope, technical decisions, validation, release readiness and the information needed after handoff.",
+      "ZNL makes delivery easier to inspect by recording scope, technical decisions, validation, release readiness and the information needed after handoff.",
     primary: { label: "Inspect the Evidence Pack", href: "/trust/evidence-pack/" },
     secondary: { label: "See the delivery process", href: "/company/process/" },
   },
   model: {
     heading: "Confidence comes from visible operating discipline.",
     description:
-      "The trust model connects what Rive does to the record it creates, the boundary it respects and the person who can inspect the result.",
+      "The trust model connects what ZNL does to the record it creates, the boundary it respects and the person who can inspect the result.",
     items: [
       {
         label: "Practice",
@@ -101,7 +101,7 @@ export const trustContent = {
     eyebrow: "Evidence depth",
     heading: "The label is not the proof. The defined records are.",
     description:
-      "Rive service specifications may identify an E1, E2 or E3 evidence tier. The engagement scope states which records and checks are included. The tier does not replace that written definition.",
+      "ZNL service specifications may identify an E1, E2 or E3 evidence tier. The engagement scope states which records and checks are included. The tier does not replace that written definition.",
     note: "Evidence expectations belong in scope before work begins, not in a marketing claim after delivery.",
   },
   boundaries: {
@@ -135,7 +135,7 @@ export const trustContent = {
   },
   claims: {
     eyebrow: "Claim boundary",
-    heading: "What Rive can say is bounded by what Rive can support.",
+    heading: "What ZNL can say is bounded by what ZNL can support.",
     supported: {
       label: "Supported",
       statement: "Describe capability, process and evidence only at the depth the current record allows.",
@@ -193,6 +193,6 @@ export const trustContent = {
     heading: "Start with the problem. Keep the proof connected to the work.",
     body: "If you are deciding where to begin, use the guided route. If the scope is already clear, start a direct conversation.",
     primary: { label: "Find Your Solution", href: "/start/" },
-    secondary: { label: "Connect with Rive", href: "/connect/" },
+    secondary: { label: "Connect with ZNL", href: "/connect/" },
   },
 } as const;

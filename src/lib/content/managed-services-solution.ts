@@ -67,20 +67,20 @@ export const assessment = {
 };
 
 export const examine = {
-  heading: "What Rive examines, and what you get back.",
+  heading: "What ZNL examines, and what you get back.",
   whatWeExamine: buyerPath.whatWeExamine,
   expectedOutput: buyerPath.expectedOutput,
 };
 
 export const processNote = {
   heading: "Where this sits in delivery.",
-  body: "Continuing operation is the Operate & improve stage in Rive's delivery process, the same stage every prior engagement eventually reaches, not a separate track bolted on afterward.",
+  body: "Continuing operation is the Operate & improve stage in ZNL's delivery process, the same stage every prior engagement eventually reaches, not a separate track bolted on afterward.",
   cta: { label: "See Delivery Process", href: "/company/process/" },
 };
 
 export const relationships = {
   eyebrow: "Related",
-  heading: "How this connects to the rest of Rive.",
+  heading: "How this connects to the rest of ZNL.",
   items: [
     {
       label: "Evidence Pack",

@@ -47,7 +47,7 @@ function validControlledAddress(value?: string): value is string {
 
 export function buildConnectEmail(data: ConnectValues, config: Required<Pick<DeliveryConfig, "from" | "to">>): EmailPayload {
   const lines = [
-    "New Rive Webworks enquiry",
+    "New ZNL Technologies enquiry",
     "",
     `Name: ${data.name}`,
     `Email: ${data.email}`,
@@ -61,7 +61,7 @@ export function buildConnectEmail(data: ConnectValues, config: Required<Pick<Del
     from: config.from,
     to: [config.to],
     replyTo: data.email,
-    subject: `New Rive Webworks enquiry - ${data.name}`,
+    subject: `New ZNL Technologies enquiry - ${data.name}`,
     text: lines.join("\n"),
   };
 }

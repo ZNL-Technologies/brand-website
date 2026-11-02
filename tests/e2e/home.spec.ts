@@ -18,7 +18,7 @@ test("home route renders the approved H1 and primary CTA", async ({ page }) => {
 test("authority signals are visible in server-rendered content", async ({ page }) => {
   await page.goto("/");
   for (const signal of ["Founder-led delivery", "AWS & Microsoft Cloud", "Governed AI", "Modern Web & Next.js", "Evidence-led delivery", "GCP / Oracle on request"]) {
-    await expect(page.getByLabel("Rive delivery authority").getByText(signal, { exact: true })).toBeVisible();
+    await expect(page.getByLabel("ZNL delivery authority").getByText(signal, { exact: true })).toBeVisible();
   }
 });
 

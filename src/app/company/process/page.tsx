@@ -8,7 +8,7 @@ import { processContent } from "@/lib/content/process";
 export const metadata: Metadata = {
   title: "Process",
   description:
-    "See how Rive Webworks moves from understanding and decisions through architecture, delivery, verification, handover and continued improvement.",
+    "See how ZNL Technologies moves from understanding and decisions through architecture, delivery, verification, handover and continued improvement.",
   alternates: { canonical: "/company/process/" },
 };
 

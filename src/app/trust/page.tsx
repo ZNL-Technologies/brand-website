@@ -9,7 +9,7 @@ import { trustContent } from "@/lib/content/trust";
 export const metadata: Metadata = {
   title: "Trust Center",
   description:
-    "See how Rive Webworks connects scope, architecture, validation, handoff and claim control to delivery evidence.",
+    "See how ZNL Technologies connects scope, architecture, validation, handoff and claim control to delivery evidence.",
   alternates: { canonical: "/trust/" },
 };
 

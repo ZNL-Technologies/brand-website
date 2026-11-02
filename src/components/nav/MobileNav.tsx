@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LinkButton } from "@/components/ui/Button";
@@ -177,15 +178,15 @@ export function MobileNav({ items, startCta, connectCta }: MobileNavProps) {
             {/* Header — shrink-0, so it stays put while the nav list below scrolls. */}
             <div className="flex shrink-0 items-center justify-between border-b border-hairline px-5 py-4">
               <span className="flex items-center gap-2.5 text-accent-foreground">
-                <span
+                <Image
+                  src="/brand/znl-wordmark.png"
+                  alt=""
                   aria-hidden="true"
-                  className="flex h-8 w-8 items-center justify-center rounded-sm border border-brand-maroon/40 text-sm font-bold text-brand-maroon"
-                >
-                  R
-                </span>
-                <span className="font-serif text-lg font-semibold tracking-tight">
-                  Rive Webworks
-                </span>
+                  width={446}
+                  height={240}
+                  className="h-10 w-auto shrink-0 znl-mark-adaptive"
+                />
+                <span className="sr-only">ZNL Technologies</span>
               </span>
               <button
                 ref={closeButtonRef}
@@ -259,7 +260,7 @@ export function MobileNav({ items, startCta, connectCta }: MobileNavProps) {
                           // clipped) plus the same `megamenu-in` reveal
                           // `OutcomeExplorer`'s own disclosure section
                           // already uses for this exact kind of moment —
-                          // Rive's established easing language, not a new
+                          // ZNL's established easing language, not a new
                           // one-off.
                           <div id={groupId} className="motion-safe:animate-[megamenu-in_200ms_ease-out]">
                             <ul className="mb-4 space-y-0.5 border-l border-hairline pl-4">

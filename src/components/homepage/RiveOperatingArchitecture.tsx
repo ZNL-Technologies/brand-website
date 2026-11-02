@@ -8,7 +8,7 @@ type RiveOperatingArchitectureProps = {
 };
 
 /**
- * Illustration 1 (RW-PW04): the Rive Operating Architecture. Two-tier
+ * Illustration 1 (RW-PW04): the ZNL Operating Architecture. Two-tier
  * system — a gold "spine" of the four primary stages (the same meaning as
  * the old compact ArchitectureFlow), with each stage additionally branching
  * into its two supporting systems as azure pathways. Gold = key nodes,
@@ -54,7 +54,7 @@ export function RiveOperatingArchitecture({ steps }: RiveOperatingArchitecturePr
   return (
     <ol
       ref={ref}
-      aria-label="The Rive operating architecture: Digital Experience, Cloud Foundation, Governed AI, Managed Outcomes"
+      aria-label="The ZNL operating architecture: Digital Experience, Cloud Foundation, Governed AI, Managed Outcomes"
       className="grid grid-cols-1 gap-10 lg:grid-cols-4 lg:gap-6"
     >
       {steps.map((step, index) => (

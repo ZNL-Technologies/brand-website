@@ -9,7 +9,7 @@ export const guidesContent = {
     eyebrow: "Guides",
     heading: "Practical thinking for systems that have to work in the real world.",
     description: "Guidance across websites, cloud, Microsoft, AI, automation and the systems connecting them.",
-    media: { id: "RW-GUIDES-HERO-01", category: "architecture-diagram", purpose: "Rive disciplines feeding one connected knowledge system", aspect: "5:4", composition: "A restrained editorial system map with multiple inputs and one clear operating frame", mood: "Intelligent, quiet, connected", replacement: "Commissioned knowledge-system illustration", priority: "P0", motion: "none" } satisfies PlaceholderMeta,
+    media: { id: "RW-GUIDES-HERO-01", category: "architecture-diagram", purpose: "ZNL disciplines feeding one connected knowledge system", aspect: "5:4", composition: "A restrained editorial system map with multiple inputs and one clear operating frame", mood: "Intelligent, quiet, connected", replacement: "Commissioned knowledge-system illustration", priority: "P0", motion: "none" } satisfies PlaceholderMeta,
   },
   featured: guide({
     id: "website-rebuild-decision",
@@ -30,7 +30,7 @@ export const guidesContent = {
   editorialFramework: {
     eyebrow: "From the field",
     heading: "Useful guidance should help you make a decision.",
-    description: "Rive publishes to clarify the problem, expose the trade-offs and make the next responsible step easier to see.",
+    description: "ZNL publishes to clarify the problem, expose the trade-offs and make the next responsible step easier to see.",
     steps: ["Understand the problem", "Separate signal from noise", "Make the trade-offs visible", "Choose the appropriate system", "Know what to verify"],
   },
   disciplines: [
@@ -43,7 +43,7 @@ export const guidesContent = {
   ] satisfies { id: GuideCategory; title: string; description: string }[],
   final: {
     heading: "Reading about the problem is sometimes enough. Sometimes it needs fixing.",
-    description: "When the next step needs hands-on work, Rive can help define the problem and connect the system around it.",
+    description: "When the next step needs hands-on work, ZNL can help define the problem and connect the system around it.",
     cta: contactCta,
   },
 };

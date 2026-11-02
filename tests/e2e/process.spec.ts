@@ -20,7 +20,7 @@ test.describe("Process page (RW-PAGE-05)", () => {
     }
 
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /\/company\/process\/$/);
-    await expect(page.getByRole("list", { name: "Rive engagement responsibilities" }).locator(":scope > li")).toHaveCount(7);
+    await expect(page.getByRole("list", { name: "ZNL engagement responsibilities" }).locator(":scope > li")).toHaveCount(7);
     await expect(page.getByText("Return path:", { exact: true })).toHaveCount(3);
   });
 

@@ -8,7 +8,7 @@ import { aboutContent } from "@/lib/content/about";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "How Rive connects experience, infrastructure, intelligence, automation and operation as one accountable organisation.",
+  description: "How ZNL connects experience, infrastructure, intelligence, automation and operation as one accountable organisation.",
   alternates: { canonical: "/company/about/" },
 };
 

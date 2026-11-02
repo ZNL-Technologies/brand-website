@@ -125,7 +125,7 @@ export const frictionMapIntro = {
 export const auditTerritoriesIntro = {
   eyebrow: "Where friction is commonly observed",
   heading: "Examples of what the audit may find, not a separate contractual list.",
-  // RW-PAGE-11A §14: these are illustrative examples of friction Rive may
+  // RW-PAGE-11A §14: these are illustrative examples of friction ZNL may
   // observe, not a second, competing inclusion list. The contractual scope
   // is the seven deliverables in the "What this produces" section below.
   qualifier: "These are illustrative categories of friction, useful for orientation. The seven deliverables below, not this list, define what is contractually included.",

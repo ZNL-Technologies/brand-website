@@ -15,7 +15,7 @@ describe("Resend Connect delivery", () => {
     const send = vi.fn().mockResolvedValue({ data: { id: "provider-id" }, error: null });
     const createClient = vi.fn(() => ({ emails: { send } }) as ConnectEmailClient);
     const result = await deliverConnectEnquiry(enquiry, {
-      config: { apiKey: "test-key", from: "Rive <sender@rive.invalid>", to: "inbox@rive.invalid" },
+      config: { apiKey: "test-key", from: "ZNL <sender@rive.invalid>", to: "inbox@rive.invalid" },
       createClient,
     });
 
@@ -23,10 +23,10 @@ describe("Resend Connect delivery", () => {
     expect(createClient).toHaveBeenCalledWith("test-key");
     expect(send).toHaveBeenCalledTimes(1);
     expect(send).toHaveBeenCalledWith(expect.objectContaining({
-      from: "Rive <sender@rive.invalid>",
+      from: "ZNL <sender@rive.invalid>",
       to: ["inbox@rive.invalid"],
       replyTo: "ada@example.com",
-      subject: "New Rive Webworks enquiry - Ada Lovelace",
+      subject: "New ZNL Technologies enquiry - Ada Lovelace",
       text: expect.stringContaining("Message:\nWe need help defining the right next step."),
     }));
   });

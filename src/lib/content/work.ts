@@ -17,7 +17,7 @@ export const workContent = {
     eyebrow: "Work",
     heading: "The work is the system, not just the screen.",
     summary:
-      "Rive connects the experience people use with the cloud, intelligence and operational delivery behind it.",
+      "ZNL connects the experience people use with the cloud, intelligence and operational delivery behind it.",
     cta: contactCta,
     visual: {
       id: "RW-WORK-HERO-01",
@@ -91,7 +91,7 @@ export const workContent = {
   selected: {
     heading: "Selected work, prepared properly.",
     description:
-      "Selected project stories are being prepared for publication. Until the underlying work and evidence are approved for public use, Rive will not turn private delivery into invented portfolio theatre.",
+      "Selected project stories are being prepared for publication. Until the underlying work and evidence are approved for public use, ZNL will not turn private delivery into invented portfolio theatre.",
     visual: { id: "RW-WORK-SELECTED-01", category: "editorial-photography", purpose: "Future selected-work feature with project-scale visual weight", aspect: "16:10", composition: "A wide project image with room for future case-study context", mood: "Substantial, quiet, credible", replacement: "Approved project screenshot, photography or device composition", priority: "P0", motion: "reveal" } satisfies PlaceholderMeta,
   },
   artefacts: {
@@ -111,10 +111,10 @@ export const workContent = {
     stages: homepageFallbackContent.process.stages.filter((stage) => ["Discover", "Build", "Prove", "Support"].includes(stage.title)).map((stage, index) => ({ ...stage, title: ["Scope", "Build", "Verify", "Operate"][index] })),
   },
   faq: [
-    { question: "What kinds of projects does Rive take on?", answer: "Rive works across digital experience, cloud, Microsoft, AI, automation and managed services. The starting point depends on the problem and the systems already in place." },
-    { question: "Can Rive work with an existing website or cloud environment?", answer: "Yes. An engagement can begin with the system you already run, assess its constraints and define what should be retained, modernised or replaced." },
+    { question: "What kinds of projects does ZNL take on?", answer: "ZNL works across digital experience, cloud, Microsoft, AI, automation and managed services. The starting point depends on the problem and the systems already in place." },
+    { question: "Can ZNL work with an existing website or cloud environment?", answer: "Yes. An engagement can begin with the system you already run, assess its constraints and define what should be retained, modernised or replaced." },
     { question: "Do you only build new systems?", answer: "No. Work may involve a new build, a focused modernisation, an architecture review or an ongoing operating need." },
-    { question: "Can Rive handle both the website and the cloud behind it?", answer: "Where the engagement requires both, Rive can consider the visible experience and its cloud foundation as one connected scope." },
+    { question: "Can ZNL handle both the website and the cloud behind it?", answer: "Where the engagement requires both, ZNL can consider the visible experience and its cloud foundation as one connected scope." },
     { question: "Can you work with our existing internal team?", answer: "Yes. Responsibility, decision owners and handoff points are made explicit so the work can connect cleanly with an internal team." },
     { question: "What happens after launch?", answer: "The handover records what shipped and what remains. Ongoing operation or support is defined separately where it forms part of the engagement." },
     { question: "How does an engagement begin?", answer: "It begins by clarifying the problem, current state and intended outcome before defining the boundary of the work." },

@@ -76,7 +76,7 @@ export function BuyerPathAccordion({ paths }: BuyerPathAccordionProps) {
 
               <dl className="mt-4 space-y-2 text-[14px] leading-[1.6]">
                 <div>
-                  <dt className="font-semibold text-heading">What Rive examines first</dt>
+                  <dt className="font-semibold text-heading">What ZNL examines first</dt>
                   <dd className="text-body">{path.whatWeExamine}</dd>
                 </div>
                 <div>

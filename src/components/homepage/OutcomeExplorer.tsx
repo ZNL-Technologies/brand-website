@@ -190,7 +190,7 @@ export function OutcomeExplorer({ paths }: OutcomeExplorerProps) {
 
               <dl className="mt-6 grid grid-cols-1 gap-4 border-t border-hairline-faint pt-6 sm:grid-cols-3">
                 <div>
-                  <dt className="text-eyebrow text-muted">Rive examines</dt>
+                  <dt className="text-eyebrow text-muted">ZNL examines</dt>
                   <dd className="mt-1 text-[14px] leading-[1.5] text-body">{active.whatWeExamine}</dd>
                 </div>
                 <div>

@@ -6,7 +6,7 @@ test.describe("About page (RW-PAGE-04)", () => {
     await page.goto("/company/about/");
     await expect(page.getByRole("heading", { level: 1 })).toHaveText("Digital work is rarely just one discipline.");
     await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-    for (const heading of ["One team across connected disciplines.", "The boundaries are artificial. The consequences are not.", "Principles that shape the work.", "Capability without accountability is not enough.", "Systems are built for people. And by people.", "What working with Rive should make clearer.", "The work should leave a record.", "Continue through Company."]) await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+    for (const heading of ["One team across connected disciplines.", "The boundaries are artificial. The consequences are not.", "Principles that shape the work.", "Capability without accountability is not enough.", "Systems are built for people. And by people.", "What working with ZNL should make clearer.", "The work should leave a record.", "Continue through Company."]) await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
     await expect(page.locator('link[rel="canonical"]')).toHaveAttribute("href", /\/company\/about\/$/);
     await expect(page.locator("main [role=img]")).toHaveCount(3);
   });
@@ -29,7 +29,7 @@ test.describe("About page (RW-PAGE-04)", () => {
   test("connected disciplines use presentation mode and permanently yield after selection", async ({ page }) => {
     await page.clock.install();
     await page.goto("/company/about/");
-    const tablist = page.getByRole("tablist", { name: "Connected Rive disciplines" });
+    const tablist = page.getByRole("tablist", { name: "Connected ZNL disciplines" });
     const presentation = tablist.locator("..");
     await presentation.scrollIntoViewIfNeeded();
     await page.mouse.move(0, 0);
@@ -47,7 +47,7 @@ test.describe("About page (RW-PAGE-04)", () => {
   test("reduced motion starts the connected disciplines in manual mode", async ({ page }) => {
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto("/company/about/");
-    const presentation = page.getByRole("tablist", { name: "Connected Rive disciplines" }).locator("..");
+    const presentation = page.getByRole("tablist", { name: "Connected ZNL disciplines" }).locator("..");
     await presentation.scrollIntoViewIfNeeded();
     await expect(presentation).toHaveAttribute("data-presentation-mode", "manual");
     await expect(presentation.locator("[data-presentation-progress]")).toHaveCount(0);
@@ -66,7 +66,7 @@ test.describe("About page (RW-PAGE-04)", () => {
       await page.setViewportSize(viewport);
       await page.goto("/company/about/");
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-      for (const button of await page.getByRole("tablist", { name: "Connected Rive disciplines" }).getByRole("tab").all()) expect((await button.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+      for (const button of await page.getByRole("tablist", { name: "Connected ZNL disciplines" }).getByRole("tab").all()) expect((await button.boundingBox())!.height).toBeGreaterThanOrEqual(44);
     }
   });
 

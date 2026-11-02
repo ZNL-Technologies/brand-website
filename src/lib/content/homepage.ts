@@ -94,10 +94,10 @@ export type HomepageContent = {
 
 export const homepageFallbackContent: HomepageContent = {
   hero: {
-    eyebrow: "RIVE WEBWORKS",
+    eyebrow: "ZNL TECHNOLOGIES",
     heading: "Cloud, AI & Web Design Built on Evidence, Not Promises",
     summary:
-      "Rive Webworks is founder-led. Work directly with the architect responsible for designing, building and standing behind your AWS or Microsoft cloud foundation, governed AI system or modern web platform, with a documented Evidence Pack™ supporting each engagement.",
+      "ZNL Technologies is founder-led. Work directly with the architect responsible for designing, building and standing behind your AWS or Microsoft cloud foundation, governed AI system or modern web platform, with a documented Evidence Pack™ supporting each engagement.",
     primaryCta: { label: "Find Your Solution", href: "/start/" },
     secondaryCta: { label: "Explore Services", href: "/services/" },
     trustItems: [
@@ -150,7 +150,7 @@ export const homepageFallbackContent: HomepageContent = {
   buyerPathsIntro: {
     eyebrow: "CHOOSE AN ENTRY POINT",
     heading: "Start with the problem you can see.",
-    description: "You do not need to diagnose the whole system. Choose the pressure you recognise and see where Rive would begin.",
+    description: "You do not need to diagnose the whole system. Choose the pressure you recognise and see where ZNL would begin.",
   },
   buyerPaths: [
     {
@@ -169,7 +169,7 @@ export const homepageFallbackContent: HomepageContent = {
   pillars: {
     eyebrow: "CLOUD, AI, WEB",
     heading: "Three lead capabilities. One accountable relationship.",
-    description: "Cloud leads, governed AI follows, and modern web completes the public experience. Choose a subject to see where Rive starts.",
+    description: "Cloud leads, governed AI follows, and modern web completes the public experience. Choose a subject to see where ZNL starts.",
     items: [
       { id: "cloud", label: "Cloud Architecture & Modernization", heading: "A cloud foundation you can explain and operate.", description: "AWS and Microsoft receive equal attention, selected around your estate rather than a house preference.", capabilities: ["AWS and Microsoft foundations", "Architecture and migration reviews", "Security and resilience", "FinOps and cost governance"], cta: { label: "Assess My Cloud", href: "/start/" }, note: "GCP and Oracle remain available where the wider environment requires them." },
       { id: "ai", label: "AI & Intelligent Automation", heading: "Intelligence with boundaries, evaluation and ownership.", description: "Readiness, secure retrieval, agents and automation are designed around approved data and consequential human decisions.", capabilities: ["AI readiness and secure RAG", "Agentic workflows and Copilot Studio", "Evaluation and governance", "AI operations and custom engineering"], cta: { label: "Plan My AI Solution", href: "/start/" } },
@@ -177,7 +177,7 @@ export const homepageFallbackContent: HomepageContent = {
     ],
   },
   process: {
-    eyebrow: "HOW RIVE WORKS", heading: "Continuity from first engagement to lasting ownership.", description: "The same founder-led team carries context from discovery through launch and into managed continuity. There is no account-manager handoff between the idea and the system.", stages: [
+    eyebrow: "HOW ZNL WORKS", heading: "Continuity from first engagement to lasting ownership.", description: "The same founder-led team carries context from discovery through launch and into managed continuity. There is no account-manager handoff between the idea and the system.", stages: [
       { step: "01", title: "Land", description: "Start with the visible pressure and define a useful first engagement." },
       { step: "02", title: "Expand", description: "Connect the adjacent architecture, experience or operating work that makes the first result durable." },
       { step: "03", title: "Retain", description: "Continue accountable operation, governance and improvement where continuity matters." },
@@ -210,7 +210,7 @@ export const homepageFallbackContent: HomepageContent = {
       { title: "Lakehouse / BI modernization", description: "Data foundations and decision surfaces designed together." },
       { title: "Identity & security", description: "Access, boundary and control thinking across the system." },
       { title: "Observability & cost", description: "Signals and financial discipline that continue after launch." },
-      { title: "Managed operations", description: "Accountable continuity for the systems Rive helps shape." },
+      { title: "Managed operations", description: "Accountable continuity for the systems ZNL helps shape." },
     ], cta: { label: "View All Capabilities", href: "/services/" },
   },
   resources: {
@@ -232,7 +232,7 @@ export const homepageFallbackContent: HomepageContent = {
   manifesto: {
     eyebrow: "How we think about this",
     lead: "A website, its cloud, and the AI layered on top are one system.",
-    body: "Most vendors specialize in a layer and hand you off at the seam: a design shop for the site, a reseller for the cloud, a bolt-on for AI. Rive scopes, builds and operates all three as a single accountable engagement, with a written record of what was decided and why, not a folder of disconnected invoices.",
+    body: "Most vendors specialize in a layer and hand you off at the seam: a design shop for the site, a reseller for the cloud, a bolt-on for AI. ZNL scopes, builds and operates all three as a single accountable engagement, with a written record of what was decided and why, not a folder of disconnected invoices.",
   },
   featuredEngagement: {
     eyebrow: "THE MOST COMMON STARTING POINT",
@@ -244,7 +244,7 @@ export const homepageFallbackContent: HomepageContent = {
   },
   platformParity: {
     heading: "AWS or Microsoft. We don't have a favorite.",
-    description: "Rive works across both ecosystems, matched to what you already run rather than a house preference.",
+    description: "ZNL works across both ecosystems, matched to what you already run rather than a house preference.",
     groups: [
       { platform: "AWS", heading: "Cloud foundations and landing zones", items: ["Cloud foundations and landing zones", "Architecture reviews", "Security and resilience", "Migration readiness", "Cost governance and FinOps", "Managed cloud operations"] },
       { platform: "Microsoft", heading: "Azure architecture and modernization", items: ["Azure architecture and modernization", "Microsoft 365 security", "Identity and access readiness", "Copilot readiness", "Governance and compliance controls", "Managed Microsoft operations"] },

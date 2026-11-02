@@ -22,7 +22,7 @@ import {
 export const metadata: Metadata = {
   title: "Accessibility",
   description:
-    "How Rive Webworks approaches accessibility: WCAG 2.2 AA-informed practice, automated and manual verification, and how remediation is checked again and recorded.",
+    "How ZNL Technologies approaches accessibility: WCAG 2.2 AA-informed practice, automated and manual verification, and how remediation is checked again and recorded.",
   alternates: { canonical: "/trust/accessibility/" },
 };
 

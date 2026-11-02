@@ -47,7 +47,7 @@ test.describe("Modern Web Platforms (RW-PAGE-14)", () => {
       "OP-40 (OPT-15 + FND-02 + BLD-03)",
       "BLD-02/03 + ACC-03/OP-10B",
       "OP-40 / DEV-03",
-      "Rive supports WordPress when it is the better operating choice",
+      "ZNL supports WordPress when it is the better operating choice",
       "Paid Discovery defines the security, integration and application boundary",
     ]) {
       expect(html).toContain(phrase);
